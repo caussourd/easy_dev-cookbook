@@ -3,5 +3,7 @@
 My first Chef cookbook
 
 Cookbook to make the developers life easier: 
- - add users from the Developers group (or other as the group gid is an attribute) to the apache group
+
+## recipe: apache_group
+Add users from the Developers group (or other group as the group gid is an attribute) to the apache group
 
