@@ -5,7 +5,7 @@
 
 # gid of the group to which I want to add users 
 #   see attributes (in our case: Developers group)
-gid = node['easy_deploy']['gid']
+gid = node['easy_dev']['gid']
 
 users = node['etc']['passwd']
 groups = node['etc']['group']
